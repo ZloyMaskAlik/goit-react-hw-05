@@ -1,0 +1,18 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify;
+
+}
+.text {
+    margin-top: 16px;
+}

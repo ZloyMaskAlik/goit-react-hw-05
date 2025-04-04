@@ -5,17 +5,17 @@ import { Route, Routes } from 'react-router-dom';
 import Header from './Header/Header';
 import Loader from './Loader/Loader';
 
-const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
-const Navigation = lazy(() => import('./components/Navigation/Navigation'));
-const MovieCast = lazy(() => import('./components/MovieCast/MovieCast'));
+const HomePage = lazy(() => import('../pages/HomePage/HomePage'));
+const Navigation = lazy(() => import('./Navigation/Navigation'));
+const MovieCast = lazy(() => import('./MovieCast/MovieCast'));
 const MovieDetailsPage = lazy(() =>
-  import('./pages/MovieDetailsPage/MovieDetailsPage')
+  import('../pages/MovieDetailsPage/MovieDetailsPage')
 );
-const MoviesPage = lazy(() => import('./pages/MoviesPage/MoviesPage'));
+const MoviesPage = lazy(() => import('../pages/MoviesPage/MoviesPage'));
 const MovieReviews = lazy(() =>
-  import('./components/MovieReviews/MovieReviews')
+  import('./MovieReviews/MovieReviews')
 );
-const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));
+const NotFoundPage = lazy(() => import('../pages/NotFoundPage/NotFoundPage'));
 
 
 
@@ -24,8 +24,8 @@ export default function App() {
 
   return (
     <>
-      <Header />
       <Suspense fallback={<Loader />}>
+        <Header />
         <Navigation />
         <Routes>
           <Route path="/" element={<HomePage />} />

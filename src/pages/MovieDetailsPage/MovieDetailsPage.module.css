@@ -1,0 +1,104 @@
+.main {
+    padding: 0 32px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 56px;
+    max-width: 1200px;
+    margin-bottom: 48px;
+}
+
+.image {
+   display: block;
+   width: 300px;
+   min-width: 300px;
+   height: 450px;
+   min-height: 450px;
+   border-radius: 8px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.score {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #000;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.overview {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: justify;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.genres {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.informationWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.informationList {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.link {
+    display: inline-block;
+    color: #000;
+    font-size: 24px;
+    transition: color 250ms linear;
+}
+
+.link:hover {
+    color: #FF6B0A;
+    text-decoration: underline;
+}
+
+.companiesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.companyLogo {
+    display: block;
+    width: auto;
+    height: 60px;
+    object-fit: cover;
+}

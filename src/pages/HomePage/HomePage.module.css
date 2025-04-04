@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin: 32px 0;
+    font-size: 36px;
+    color: #000;
+}

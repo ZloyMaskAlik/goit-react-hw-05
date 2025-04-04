@@ -1,0 +1,40 @@
+.nav {
+    top: 135px;
+        left: 0;
+        position: sticky;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        min-height: 64px;
+        margin-top: 20px;
+        padding: 15px 24px;
+        background-color: #fff;
+        border: 2px solid #49494af5;
+        border-radius: 8px;
+    }
+
+.link {
+    background-color: #FF6B0A;
+    width: 16%;
+    padding: 4px 0;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+    transition: 250ms ease-in-out;
+}
+
+.link:hover {
+    color: #fff;
+    transform: scale(.95);
+    box-shadow: none;
+}
+
+.isActive {
+    background-color: #ff8f44;
+    transform: scale(.95);
+    box-shadow: none;
+}

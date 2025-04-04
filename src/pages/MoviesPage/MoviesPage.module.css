@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 48px 0;
+}
+
+.input {
+    width: 320px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #FF6B0A;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fffefe;
+    transition: border-color 250ms linear, outline 250ms linear;
+}
+
+.input:focus {
+    border-color: #FF6B0A;
+    outline: 1px solid #FF6B0A;
+}
+
+.button {
+    width: 16%;
+    padding: 4px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #FF6B0A;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+    transition: 250ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+    transform: scale(.95);
+    box-shadow: none;
+    }

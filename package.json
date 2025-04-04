@@ -11,12 +11,14 @@
   },
   "dependencies": {
     "axios": "^1.8.4",
+    "clsx": "^2.1.1",
     "formik": "^2.4.6",
     "modern-normalize": "^3.0.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
     "react-modal": "^3.16.3",
+    "react-router-dom": "^7.4.1",
     "react-spinners": "^0.15.0",
     "yap": "^0.0.2",
     "yup": "^1.6.1"
